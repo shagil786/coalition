@@ -6,7 +6,7 @@ This website is a technical interview for a frontend developer role that showcas
 
 1. Clone this repository to your local machine.
 2. Install the necessary dependencies by running npm install.
-3. Start the development server by running npm start.
+3. Start the development server by running npm run dev.
 4. Open your browser and navigate to http://localhost:5173/.
 
 ## Technologies Used
