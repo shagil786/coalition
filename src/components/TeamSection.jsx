@@ -22,10 +22,10 @@ export const TeamSection = () => {
         <div className="w-full sm:h-8 bg-[#414f6b] overflow-hidden">
           <ul className="flex flex-col sm:flex-row px-20 sm:pl-60 gap-4">
             <li className="section-links">
-              <a href="mountain1">Mountain 1</a>
+              <a href="/">Mountain 1</a>
             </li>
             <li className="section-links">
-              <a href="mountain2">Mountain 2</a>
+              <a href="/">Mountain 2</a>
             </li>
           </ul>
 
