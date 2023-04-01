@@ -8,10 +8,12 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-mountains': "url('/assets/hero-bg.svg')",
+        'peak': "url('/assets/peak-bg.svg')",
        
       },
     fontFamily: {
-      'Bebas': [ 'Bebas Neue']
+      'Bebas': [ 'Bebas Neue'],
+      'Oswald': ['Oswald', 'sans-serif']
     }
   },
   plugins: [],

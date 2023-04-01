@@ -7,7 +7,7 @@
 }
 
 .nav-links {
-  @apply  hover:scale-105 cursor-pointer underline text-white text-xs font-black leading-5 italic underline-offset-4
+  @apply  hover:scale-105 cursor-pointer underline text-xs font-black leading-5 italic underline-offset-4
 }
 
 .blue-gradient {
