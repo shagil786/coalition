@@ -5,8 +5,8 @@ export const Header = () => {
       <Navbar bgColor="transparent" linkColor="white" />
 
       <div className="flex flex-col justify-center items-center ">
-        <h2 className="header-font  text-[7.1rem] pt-10">LOS ANGELES</h2>
-        <span className="header-font text-[7.1rem] blue-gradient tracking-wider ">
+        <h2 className="header-font  text-7xl sm:text-[7.1rem] pt-10">LOS ANGELES</h2>
+        <span className="header-font text-7xl  sm:text-[7.1rem] blue-gradient tracking-wider ">
           MOUNTAINS
         </span>
       </div>

@@ -12,7 +12,7 @@ export const Schedule = () => {
     "Vestibulum viverra",
   ];
   return (
-    <div className="bg-white ml-60 my-20 opacity-80 w-96 h-60 px-8">
+    <div className="bg-white mx-2 sm:ml-60 my-20 opacity-80 w-96 h-60 px-8">
       <h4 className="font-Oswald font-black text-4xl text-[#414f6b]">
         SCHEDULE
       </h4>

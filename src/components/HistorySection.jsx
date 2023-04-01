@@ -14,7 +14,7 @@ export const HistorySection = () => {
           <span className="text-[2rem] font-black text-[#414f6b] absolute left-[8.3rem] top-24">
             HISTORY
           </span>
-          <p className="ml-24 text-justify">
+          <p className="sm:ml-24 text-justify">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in
             ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus
             est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam.
