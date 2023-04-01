@@ -1,9 +1,10 @@
-import { Header, MainContent } from "../components";
+import { Header, MainContent, Footer } from "../components";
 export const Home = () => {
   return (
     <>
       <Header />
       <MainContent />
+      <Footer />
     </>
   );
 };

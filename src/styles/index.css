@@ -17,3 +17,7 @@
 .header-font {
     @apply font-Bebas leading-none font-black  text-center;
 }
+
+.section-links {
+    @apply font-Oswald uppercase underline p-1 cursor-pointer text-[#b0b4be] font-black hover:text-[#414f6b] hover:bg-[#b0b4be];
+}
