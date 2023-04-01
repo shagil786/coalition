@@ -7,8 +7,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-mountains': "url('/assets/')",
-      }
+        'hero-mountains': "url('/assets/hero-bg.svg')",
+       
+      },
+    fontFamily: {
+      'Bebas': [ 'Bebas Neue']
+    }
   },
   plugins: [],
 }

@@ -9,3 +9,11 @@
 .nav-links {
   @apply  hover:scale-105 cursor-pointer underline text-white text-xs font-black leading-5 italic underline-offset-4
 }
+
+.blue-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-b from-blue-900 to-black;
+}
+
+.header-font {
+    @apply font-Bebas text-[7.1rem] leading-none w-full font-black  text-center;
+}
