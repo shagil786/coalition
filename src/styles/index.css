@@ -7,7 +7,7 @@
 }
 
 .nav-links {
-  @apply  hover:scale-105 cursor-pointer underline text-xs font-black leading-5 italic underline-offset-4
+  @apply  hover:scale-105 cursor-pointer underline text-xs font-black leading-5 italic underline-offset-4 py-1;
 }
 
 .blue-gradient {
@@ -19,5 +19,5 @@
 }
 
 .section-links {
-    @apply font-Oswald uppercase underline p-1 cursor-pointer text-[#b0b4be] font-black hover:text-[#414f6b] hover:bg-[#b0b4be];
+    @apply font-Oswald w-full sm:w-32 uppercase underline text-center sm:p-1 cursor-pointer text-[#b0b4be] font-black hover:text-[#414f6b] hover:bg-[#b0b4be];
 }

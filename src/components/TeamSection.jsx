@@ -19,8 +19,8 @@ export const TeamSection = () => {
             dignissim tortor nec congue.
           </p>
         </div>
-        <div className="w-full h-8 bg-[#414f6b] overflow-hidden">
-          <ul className="flex px-20 sm:pl-60 gap-4">
+        <div className="w-full sm:h-8 bg-[#414f6b] overflow-hidden">
+          <ul className="flex flex-col sm:flex-row px-20 sm:pl-60 gap-4">
             <li className="section-links">
               <a href="mountain1">Mountain 1</a>
             </li>

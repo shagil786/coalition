@@ -1,7 +1,7 @@
 import { Navbar,HistorySection, TeamSection } from "./";
 export const MainContent = () => {
   return (
-    <main>
+    <main className="overflow-hidden">
       <Navbar bgColor="white" linkColor="black" header />
       <HistorySection/>
       <TeamSection/>

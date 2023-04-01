@@ -1,15 +1,15 @@
 export const Navbar = ({ bgColor, header }) => {
   return (
-    <nav className={`flex justify-around items-center py-2 bg-${bgColor} h-20`}>
+    <nav className={`flex flex-col sm:flex-row justify-around items-center  bg-${bgColor} h-28 sm:h-20`}>
       <figure className="hover:scale-105 cursor-pointer flex items-center justify-center gap-4">
         <img
           src="/assets/logo.svg"
           alt="logo"
-          className="w-10 border border-blue-950 rounded-full"
+          className="w-10 border mt-2 border-blue-950 rounded-full"
         />
 
         {header && (
-          <figcaption className="flex flex-col justify-center items-center w-full ">
+          <figcaption className="flex flex-col mt-2 justify-center items-center w-full ">
             <h2 className="header-font font-sm text-black ">LOS ANGELES</h2>
             <span className="header-font font-sm blue-gradient tracking-wider ">
               MOUNTAINS
@@ -18,7 +18,7 @@ export const Navbar = ({ bgColor, header }) => {
         )}
       </figure>
 
-      <ul className="flex gap-6 items-center">
+      <ul className="flex flex-col sm:flex-row sm:gap-6 items-center">
         <li className={`nav-links ${header ? "text-black" : "text-white"}`}>
           <a href="#history">01. HISTORY</a>
         </li>

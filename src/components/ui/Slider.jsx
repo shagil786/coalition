@@ -51,13 +51,13 @@ export const SliderComponent = () => {
   return (
     <div className="w-full h-60 bg-[#414f6b] opacity-80 absolute bottom-0 ">
       <div className="flex justify-center items-center w-full h-full">
-        <Slider {...settings} className="w-10/12">
+        <Slider {...settings} className="w-11/12 px-5">
           {images.map((image, index) => (
             <div className="mx-8">
               <img
                 src={image}
                 key={index}
-                className="w-60 h-40 "
+                className="w-50 h-40 "
                 alt={`Thumb ${index}`}
               />
             </div>
