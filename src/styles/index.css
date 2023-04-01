@@ -15,5 +15,5 @@
 }
 
 .header-font {
-    @apply font-Bebas text-[7.1rem] leading-none w-full font-black  text-center;
+    @apply font-Bebas leading-none font-black  text-center;
 }
