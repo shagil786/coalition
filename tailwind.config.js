@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-mountains': "url('/assets/hero-bg.svg')",
-        'peak': "url('/assets/peak-bg.svg')",
-        'snow-peak': "url('/assets/snow-peak.svg')",
+        'hero-mountains': "url('/assets/hero-bg.png')",
+        'peak': "url('/assets/peak-bg.png')",
+        'snow-peak': "url('/assets/snow-peak.png')",
        
       },
     fontFamily: {

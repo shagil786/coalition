@@ -36,16 +36,16 @@ export const SliderComponent = () => {
   };
 
   const images = [
-    "/assets/thumb1.svg",
-    "/assets/thumb2.svg",
-    "/assets/thumb1.svg",
-    "/assets/thumb2.svg",
-    "/assets/thumb1.svg",
-    "/assets/thumb2.svg",
-    "/assets/thumb1.svg",
-    "/assets/thumb2.svg",
-    "/assets/thumb1.svg",
-    "/assets/thumb2.svg",
+    "/assets/thumb1.png",
+    "/assets/thumb2.png",
+    "/assets/thumb1.png",
+    "/assets/thumb2.png",
+    "/assets/thumb1.png",
+    "/assets/thumb2.png",
+    "/assets/thumb1.png",
+    "/assets/thumb2.png",
+    "/assets/thumb1.png",
+    "/assets/thumb2.png",
   ];
 
   return (
