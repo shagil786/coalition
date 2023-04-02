@@ -4,6 +4,12 @@ This website is a technical interview for a frontend developer role that showcas
 ## Getting Started
 ### To view this website, please follow these steps:
 
+## On the internet
+
+ Open your browser and navigate to: https://angelesmountains.netlify.app
+
+## Locally
+
 1. Clone this repository to your local machine.
 2. Install the necessary dependencies by running npm install.
 3. Start the development server by running npm run dev.
